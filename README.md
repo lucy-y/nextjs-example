@@ -1,5 +1,10 @@
 # nextjs-example
 - react v18.2.0
+
+- https://nextjs.org/learn/dashboard-app/navigating-between-pages
+
+- create project
+  - https://nextjs.org/docs/pages/api-reference/create-next-app
  
 - ref
   - https://nextjs.org/
