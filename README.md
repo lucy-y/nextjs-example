@@ -1,12 +1,15 @@
 # nextjs-example
 - react v18.2.0
 
+## Chapter
 - https://nextjs.org/learn/dashboard-app/navigating-between-pages
+- https://nextjs.org/learn/dashboard-app/setting-up-your-database
+  - Postgres database.
 
-- create project
+## create project
   - https://nextjs.org/docs/pages/api-reference/create-next-app
  
-- ref
+## ref
   - https://nextjs.org/
   - https://tailwindcss.com/
   - https://woodaelog.com/31.NextJs-basic-grammer/
