@@ -10,8 +10,9 @@
   ```
 - https://nextjs.org/learn/dashboard-app/fetching-data
   - useEffect, useState (async/await)
-
-
+- https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering
+  - Faster Websites, Reduced Server Load, SEO
+  - Real-Time Data, User-Specific Content, Request Time Information
 
 ## create project
   - https://nextjs.org/docs/pages/api-reference/create-next-app
