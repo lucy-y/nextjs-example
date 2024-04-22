@@ -16,6 +16,15 @@
 - Streaming(https://nextjs.org/learn/dashboard-app/streaming)
   - Suspense (https://react-ko.dev/reference/react/Suspense)
   - https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming
+- Partial Prerendering (Optional) (https://nextjs.org/learn/dashboard-app/partial-prerendering)
+  - static area, dynamic area
+- Adding Search and Pagination (https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
+  - APIs: searchParams, usePathname, useRouter
+  ```
+  npm i use-debounce
+  (https://www.npmjs.com/package/use-debounce)
+  ```
+
 
 ## create project
   - https://nextjs.org/docs/pages/api-reference/create-next-app
