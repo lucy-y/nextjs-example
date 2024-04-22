@@ -13,6 +13,9 @@
 - https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering
   - Faster Websites, Reduced Server Load, SEO
   - Real-Time Data, User-Specific Content, Request Time Information
+- Streaming(https://nextjs.org/learn/dashboard-app/streaming)
+  - Suspense (https://react-ko.dev/reference/react/Suspense)
+  - https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming
 
 ## create project
   - https://nextjs.org/docs/pages/api-reference/create-next-app
