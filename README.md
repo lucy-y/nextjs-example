@@ -4,10 +4,13 @@
 ## Chapter
 - https://nextjs.org/learn/dashboard-app/navigating-between-pages
 - https://nextjs.org/learn/dashboard-app/setting-up-your-database
-  - Postgres database. (pass)
+  - Postgres database. 
+  ```
+  npm i @vercel/postgres
+  ```
 - https://nextjs.org/learn/dashboard-app/fetching-data
   - useEffect, useState (async/await)
-  
+
 
 
 ## create project
