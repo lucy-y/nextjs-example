@@ -20,10 +20,14 @@
   - static area, dynamic area
 - Adding Search and Pagination (https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
   - APIs: searchParams, usePathname, useRouter
+  
   ```
   npm i use-debounce
   (https://www.npmjs.com/package/use-debounce)
   ```
+
+- Mutating Data (https://nextjs.org/learn/dashboard-app/mutating-data)
+  - todo: 해야함
 
 
 ## create project
