@@ -40,6 +40,14 @@
   - custom Erorr관련 표기를 위해서는 각 페이지의 루트 경로에 error.tsx 추가 필요 (error.js next.js 내장 API)
   - 404같은 공용 에러는 각 페이지 경로에 xxx.tsx(ex. not-found.tsx) 추가 필요 (notFound(), not-found.js next.js 내장 API)
 
+- Improving Accessibility (https://nextjs.org/learn/dashboard-app/improving-accessibility)
+  - eslint-plugin-jsx-a11y
+  ```
+  npm i eslint-plugin-jsx-a11y
+  ```
+  - todo: 이어서 확인 필요
+
+
 
 ## create project
   - https://nextjs.org/docs/pages/api-reference/create-next-app
