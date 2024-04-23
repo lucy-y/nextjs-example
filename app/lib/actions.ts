@@ -49,7 +49,7 @@ export async function createInvoice(formData: FormData) {
     redirect('/dashboard/invoices'); // 리다이렉트
 }
 
-//수정
+// 수정
 const UpdateInvoice = FormSchema.omit({ id: true, date: true });
 export async function updateInvoice(id: string, formData: FormData) {
     const { customerId, amount, status } = UpdateInvoice.parse({
@@ -66,4 +66,11 @@ export async function updateInvoice(id: string, formData: FormData) {
     `;
     revalidatePath('/dashboard/invoices');
     redirect('/dashboard/invoices');
+}
+
+
+// 삭제
+export async function deleteInvoice(id: string) {
+    await sql`DELETE FROM invoices WHERE id = ${id}`;
+    revalidatePath('/dashboard/invoices');
 }
