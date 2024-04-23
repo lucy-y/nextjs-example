@@ -27,7 +27,18 @@
   ```
 
 - Mutating Data (https://nextjs.org/learn/dashboard-app/mutating-data)
-  - todo: 해야함
+- Handling Errors (https://nextjs.org/learn/dashboard-app/error-handling)
+  - 강제 에러 발생 throw new Error("메세지");
+  - try/catch (java와 동일)
+  ```
+  try {
+    ...
+  } catch(error) {
+    return { message: 'message'};
+  }
+  ```
+  - custom Erorr관련 표기를 위해서는 각 페이지의 루트 경로에 error.tsx 추가 필요 (error.js next.js 내장 API)
+  - 404같은 공용 에러는 각 페이지 경로에 xxx.tsx(ex. not-found.tsx) 추가 필요 (notFound(), not-found.js next.js 내장 API)
 
 
 ## create project
